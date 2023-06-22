@@ -512,6 +512,7 @@ div.alto{
         margin-top: 5%;
     }
     .footer{
+        margin-top: 15%;
         height: 70vh;
         bottom: 0%;
         z-index: -2;
@@ -543,7 +544,7 @@ div.alto{
         margin-top: 50%;
     }
     .footer{
-        margin-top: 0%;
+        margin-top: 55%;
     }
 
 }
@@ -587,7 +588,7 @@ div.alto{
         margin-left: 13%;
     }
     .footer{
-        margin-top: 50px;
+        margin-top: 65%;
         text-align: center;
         padding-top: 120px;
         height: 90vh;
@@ -606,6 +607,9 @@ div.alto{
     }
     div.sobre-right{
         margin-left: 10%;
+    }
+    .footer{
+        margin-top: 80%;
     }
 }
 @media (max-width: 953px) {
@@ -670,11 +674,8 @@ div.alto{
         flex-wrap: nowrap;
     }
     section#portifolio{
-        margin-bottom: 500px;
+        margin-bottom: 0px;
         height: 190vh;
-    }
-    section#contato{
-        margin-top: -40%;
     }
 }
 
@@ -691,7 +692,7 @@ div.alto{
         left: -100%;
         width: 100%;
         height: 100vh;
-        background: #07344e;
+        background: green;
         text-align: center;
         transition: all .5s;
     }
@@ -705,7 +706,7 @@ div.alto{
     }
     li > a:hover, li > a.active{
         background: none;
-        color: #0082e6;
+        color: greenyellow;
     }
     #check:checked ~ ul{
         left: 0;
@@ -765,9 +766,9 @@ div.alto{
 
 }
 
-@media (max-width: 819px){
+@media (max-width: 820px){
 
-    section#contato{
+    .footer{
         margin-top: 200%;
     }
 }
@@ -808,7 +809,7 @@ div.alto{
         margin-bottom: 95px;
     }
     .footer{
-        margin-top: 10%;
+        margin-top: 180%;
     }
 }
 
@@ -860,7 +861,7 @@ div.alto{
         margin-left: 40px;
         font-size: 1.4em;
     }
-    section#contato{
+    .footer{
     margin-top: 220%;
 }
 }
@@ -873,7 +874,7 @@ div.alto{
     div.sobre-right div.sobre-titu{
         font-size: 1.3em;
     }
-    section#contato{
+    .footer{
         margin-top: 230%;
     }
 
@@ -924,6 +925,7 @@ div.alto{
     }
     .footer{
         width: 120%;
+        margin-top: 280%;
     }
     section#home, section#sobre, section#portifolio, section#contato, footer{
         width: 115%;
@@ -982,11 +984,13 @@ div.alto{
     }
     .footer{
         height: 60vh;
+        margin-top: 300%;
 
     }
 } 
 @media screen and(max-width: 266px) {
     .footer{
         width: 100%;
+        margin-top: 320%;
     }
 }
