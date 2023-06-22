@@ -162,7 +162,7 @@ div.linguas > i{
     padding: 5px;
 }
 div.linguas > .html:hover, div.linguas > .css:hover, div.linguas > .js:hover{
-    color: #0d5785;
+    color: green;
     background: #fff;
 }
 div.linguas >  .html{
